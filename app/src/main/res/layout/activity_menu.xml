@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cool_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnscore"
+            android:layout_width="162dp"
+            android:layout_height="94dp"
+            android:text="Check Score" />
+        <Button
+            android:id="@+id/seeNews"
+            android:layout_width="162dp"
+            android:layout_height="94dp"
+            android:text="View Campus News" />
+
+        <Button
+            android:id="@+id/btnlogout"
+            android:layout_width="162dp"
+            android:layout_height="94dp"
+            android:text="Logout" />
+
+
+</LinearLayout>
